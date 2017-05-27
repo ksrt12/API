@@ -2,10 +2,10 @@
     "id": null,
     "result": [
         {
-            "incremental": "e79943871d",
+            "incremental": "743b1e06f0",
             "api_level": 23,
             "url": "https://www.dropbox.com/s/fp9flu7mt3y6c51/cm-13.0-20160908-UNOFFICIAL-u8950.zip?dl=1",
-            "timestamp": "1473348675",
+            "timestamp": "1495841463",
             "md5sum": "584b32b93e8f853d9eff99e91464da6f",
             "changes": "https://raw.githubusercontent.com/ksrt12/CMUpdater_API/cm-13.0/CHANGES.txt",
             "channel": "NIGHTLY",
