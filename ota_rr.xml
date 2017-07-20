@@ -6,15 +6,15 @@
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Latest ResurrectionRemix build">https://yadi.sk/d/gz4gzP6u3LDpYU</RomUrl>
+                description="Последняя сборка ResurrectionRemix">https://yadi.sk/d/gz4gzP6u3LDpYU</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="View Changelog">https://raw.githubusercontent.com/CM13-HI6210SFT/CMUpdater_API/rr/CHANGELOG.mkdn</ChangelogUrl>
+                description="Просмотреть Changelog">https://raw.githubusercontent.com/CM13-HI6210SFT/CMUpdater_API/rr/CHANGELOG.mkdn</ChangelogUrl>
             <OldBuildsUrl
             	id="Old_builds"
-            	title="Build Folder"
-            	description="Build Download Archive">https://yadi.sk/d/y2y4VXFo3KRVwo</OldBuildsUrl>
+            	title="Папка Rom'ом"
+            	description="Архив предыдущих сборок">https://yadi.sk/d/y2y4VXFo3KRVwo</OldBuildsUrl>
 	        </cherryplus>
     </Stable>
 </SlimOTA>
