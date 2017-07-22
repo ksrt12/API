@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <cherryplus>
-            <Filename>RR-N-v5.8.3-20170720-cherryplus-Nightly-b53.zip</Filename>
+            <Filename>RR-N-v5.8.3-20170723-apps_update.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Последняя сборка ResurrectionRemix">https://yadi.sk/d/gz4gzP6u3LDpYU</RomUrl>
+                description="Последнее обновление ResurrectionRemix">https://yadi.sk/d/JPUzpBMW3LJ9wo</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
