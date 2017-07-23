@@ -15,6 +15,14 @@
             	id="Old_builds"
             	title="Папка Rom'ов"
             	description="Архив предыдущих сборок">https://yadi.sk/d/y2y4VXFo3KRVwo</OldBuildsUrl>
+            <GappsUrl
+                id="gapps"
+                title="Gapps"
+                description="ARM64 7.1 pico">http://opengapps.org/</GappsUrl>
+            <PDAUrl
+                id="4pda"
+                title="4PDA"
+                description="Honor 4x - Прошивки">https://4pda.ru/forum/index.php?s=&showtopic=669410&view=findpost&p=62674376</PDAUrl>
 	        </cherryplus>
     </Stable>
 </SlimOTA>
