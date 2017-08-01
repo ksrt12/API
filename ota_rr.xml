@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
-    <Stable>
+    <test>
         <cherryplus>
             <Filename>RR-N-v5.8.3-20170801-cherryplus-Nightly-b64.zip</Filename>
             <RomUrl
@@ -20,5 +20,5 @@
                 title="Gapps"
                 description="ARM64 7.1 pico">http://opengapps.org/</GappsUrl>
 	        </cherryplus>
-    </Stable>
+    </test>
 </SlimOTA>
