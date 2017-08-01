@@ -1,8 +1,268 @@
 
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
- Update for apps:
- RootExplorer v4.1.4
- Chrome v59.0.3071.125
 
-Обновление носит необязательный характер :)
+ ▼ 08/01/2017
+
+ ▪ GPS fix
+ ▪ add device sepolicy
+
+ ▪ project build/
+ ▪ 422eaffa8 ru
+
+ ▪ project external/roboto-fonts/
+ ▪ cbb0a8a Roboto-Light
+
+ ▪ project frameworks/base/
+ ▪ 9490ac18b0d mtp: stop ocassional crash in MTP Host.
+
+ ▪ project frameworks/native/
+ ▪ 7fe61070f opengl: dont use swap buffers with damage
+ ▪ 5f6793344 gui: don't use native fence sync
+ ▪ 92ceffe3f Fix deep sleep issue
+
+ ▪ project frameworks/opt/telephony/
+ ▪ fb3b644b 0001-telephony-fix-2g-2g-4g-switch
+
+ ▪ project kernel/huawei/shine/
+ ▪ 88026f64 Update cherryplus_defconfig
+
+ ▪ project packages/apps/Camera2/
+ ▪ 7c9e0e3cf Camera2: override capture support level
+ ▪ 60fa5ef5f Camera2: Fix photo snap delay on front cam.
+
+ ▪ project packages/apps/Eleven/
+ ▪ 1cc8b9e Eleven: Add WRITE_MEDIA_STORAGE permission
+ ▪ 083e7f9 Eleven: Promote to privileged app
+ ▪ 5301693 Eleven: allow artwork to scale down
+
+ ▪ project packages/apps/Settings/
+ ▪ b55037c829 add ota
+ ▪ 6897112fed Adjust brightness by sliding across the status bar
+
+ ▪ project packages/apps/Snap/
+ ▪ a206d7565 Snap: fix low resolution front camera switch icon
+
+ ▪ project packages/apps/Terminal/
+ ▪ a864465 Terminal
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ bf1728990 my apps
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ ebaafd5 fix_mtp
+
+ ▪ project packages/services/OmniJaws/
+ ▪ 7359cb6 enable weather by default
+
+ ▪ project system/core/
+ ▪ b3a46b067 CPU Fix by K4CZP3R
+
+ ▪ project vendor/cm/
+ ▪ 8ed288e7 2
+ ▪ 200b8ab0 vendor
+
+ ▼ 07/30/2017
+
+
+ ▪ project frameworks/base/
+ ▪ c4a83cf2e2e Allow to disable battery light when in DND mode [1/2]
+ ▪ 20dce166e74 SystemUI: Store value of lockscreen media art
+ ▪ 3dff8ca8096 AppOps: Prevent deadlock when making note of applications
+ ▪ 0e93f345da7 KernelCpuSpeedReader: Account for missing sysfs nodes
+ ▪ 33c6d4fd285 Revert "KernelCpuSpeedReader: Account for missing sysfs nodes"
+ ▪ 6f93f576838 slim recents: Be sure to catch all exceptions for startActivityFromRecents
+ ▪ da27683f990 slim recents: Favlist creation: use HashSet instead of Arraylist
+ ▪ c46b63ce748 SystemUI: locked tasks should have a valid view
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/Gallery2/
+ ▪ cb5569dac Add missing includes.
+ ▪ 9b06cb637 Cleanup warnings in jni.
+ ▪ 12ee0f31e Fix misc-macro-parentheses warnings in Gallery2.
+ ▪ a0801b0a8 Float.NaN != ... always evaluates to true, use Float.isNaN.
+ ▪ d5da716cf Revert "Revert "Gallery2: set module privileged in Android.mk to delete photos on SD card.""
+
+ ▪ project packages/apps/Jelly/
+ ▪ 083e503 Jelly: remove 'Mobile' from desktop user agent
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/Settings/
+ ▪ 648e10288d MSIM: Fix user set DDS sub in hotswap cases.
+ ▪ 5a56b01a2a Allow to disable battery light when in DND mode[2/2]
+
+ ▪ project packages/services/OmniJaws/
+
+ ▼ 07/29/2017
+
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ d261c7a SetupWizard: Don't show ChooseDataSimActivity on single sim devices
+ ▪ 6971663 SetupWizard: Fix crash when sims are absent
+ ▪ b1dd429 SetupWizard: Fix a few possible NPEs
+
+ ▪ project packages/apps/Snap/
+ ▪ db73354ac Revert "Revert "SnapdragonCamera: Adding PRIVILEGED true""
+
+ ▼ 07/28/2017
+
+
+ ▪ project external/chromium-webview/
+ ▪ e205b2a Update webview
+
+ ▪ project packages/apps/Calendar/
+
+ ▪ project packages/apps/Camera2/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/DeskClock/
+
+ ▪ project packages/apps/Eleven/
+
+ ▪ project packages/apps/Email/
+
+ ▪ project packages/apps/Exchange/
+
+ ▪ project packages/apps/Gallery2/
+ ▪ f60b01e0e Revert "Gallery2: set module privileged in Android.mk to delete photos on SD card."
+
+ ▪ project packages/apps/Jelly/
+
+ ▪ project packages/apps/Snap/
+ ▪ bbb6ee12f Revert "SnapdragonCamera: Adding PRIVILEGED true"
+
+ ▪ project packages/apps/TvSettings/
+
+ ▪ project system/bt/
+ ▪ b30e393e Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1
+
+ ▪ project vendor/cm/
+ ▪ cfcd5e29 Fix build scripts color format
+
+ ▼ 07/27/2017
+
+
+ ▪ project system/netd/
+ ▪ b2d5c79 SoftAp: Fix compilation in netd if  LIBWPA_CLIENT_EXISTS undefined.
+
+ ▼ 07/26/2017
+
+
+ ▪ project frameworks/native/
+ ▪ a3768a911 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
+
+ ▪ project hardware/qcom/fm/
+
+ ▪ project packages/apps/Email/
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 41241c1af Gallery2: Fix various issues and glitches
+ ▪ 906a508ec Gallery2: Fix potential crash
+
+ ▪ project packages/apps/Jelly/
+
+ ▪ project packages/apps/Messaging/
+ ▪ cf5278b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat
+
+ ▪ project packages/apps/Settings/
+ ▪ 48eecf4199 Add Maintainer for LG G2 (Sprint) LS980 variant (#830)
+ ▪ 213c4d974e Settings: Allow our root options to work with LineageSu as well
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▼ 07/25/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 84545104c11 Fix and cleanup dui protected broadcasts [2/2]
+ ▪ 242cf2c120b base: SystemUI: add OmniSwitch hide on home
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 89e029a Fix potential FC in the async task
+ ▪ 083543e OmniSwitch: bring back hide broadcast
+ ▪ 0f4b052 OmniSwitch: add unchanged recent task list
+ ▪ a58f458 OmniSwitch: round corners are sexy
+ ▪ 89e9691 OmniSwitch: transparents also wants to see locked apps :)
+ ▪ 92f3ac7 OmniSwitch: locked apps support
+ ▪ 006ea5a OmniSwitch: add force stop in context menu
+ ▪ b51a26c OmniSwitch: icon pack loading needs an early start
+ ▪ 423639f OmniSwitch: fix terrible wrong resizing on compose icons
+ ▪ 908e593 OmniSwitch: better safe then sorry
+
+ ▪ project packages/apps/Settings/
+ ▪ 2bdc971ca8 Fix and cleanup dui protected broadcasts [1/2]
+ ▪ c3e7f21a2e Utils: Fix onboot crash until magisk is found
+ ▪ 4856b02a45 Update LG G3 (D855) Maintainer. (#829)
+ ▪ 51a82c806d Add Maintainer for ZTE BLADE A610 (a610) (#826)
+ ▪ b7e811c905 Add Co-Maintainer for Lettuce (#827)
+
+ ▼ 07/24/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 12fb6d61063 Base: Fix global actions menu emergency button position
+
+ ▪ project vendor/cm/
+ ▪ d235a41c Update Changelog
+
+ ▼ 07/23/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project hardware/qcom/fm/
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/Bluetooth/
+
+ ▪ project packages/apps/CMBugReport/
+
+ ▪ project packages/apps/Camera2/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/DeskClock/
+ ▪ 81651fb3 DeskClock: Make sure int values are unique
+ ▪ 3e8d52b5 Use density independent units for the timer digits for sw360dp
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/Eleven/
+
+ ▪ project packages/apps/Jelly/
+
+ ▪ project packages/apps/PackageInstaller/
+
+ ▪ project packages/apps/Recorder/
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/Settings/
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▪ project packages/apps/Terminal/
+
+ ▪ project packages/providers/WeatherProvider/
+
+ ▪ project packages/services/OmniJaws/
+
+ ▪ project vendor/cm/
+ ▪ 982208ba DeskClock: switch to version 5.0.1 (3745617)
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+
