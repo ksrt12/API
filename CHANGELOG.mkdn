@@ -1,55 +1,138 @@
 
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
- ▪ security patch 05.08.2017
- ▪ tag android-7.1.2_r29
+ ▪ fix ussd
+ ▪ fix headphone/microphone jack
+ ▪ add power.hi6210sft libs
+
+ ▼ 08/16/2017
+
+
+ ▪ project build/
+ ▪ 8988c32ee ru
+
+ ▪ project external/roboto-fonts/
+ ▪ 9de6e37 Roboto-Light
+
+ ▪ project frameworks/base/
+ ▪ 7856504aa7c mtp: stop ocassional crash in MTP Host.
+
+ ▪ project frameworks/native/
+ ▪ 7d6a2e109 opengl: dont use swap buffers with damage
+ ▪ 557d5a115 gui: don't use native fence sync
+ ▪ fa934a324 Fix deep sleep issue
+
+ ▪ project frameworks/opt/telephony/
+ ▪ 7b77f2f3 fix ussd
+ ▪ 5293dff1 fix 2g/3g/LTE switch
+
+ ▪ project hardware/qcom/bt-caf/
+ ▪ 328d8af Revert "Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD"
+
+ ▪ project packages/apps/Camera2/
+ ▪ 9062ef7fb Camera2: override capture support level
+ ▪ b4cad6331 Camera2: Fix photo snap delay on front cam.
+
+ ▪ project packages/apps/Jelly/
+ ▪ 21b9d05 Jelly: Check for onChanged in history data observer
+
+ ▪ project packages/apps/Settings/
+ ▪ 3858939ae5 add ota
+ ▪ c32f8e65e2 Adjust brightness by sliding across the status bar
+ ▪ 115a5419ea added helium (#843)
+
+ ▪ project packages/apps/Terminal/
+ ▪ f1f339b Terminal
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ abdbec96c my apps
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 11a09a1 fix_mtp
+
+ ▪ project packages/services/OmniJaws/
+ ▪ 30241d9 enable weather by default
+
+ ▪ project system/core/
+ ▪ 7b3887f7b CPU Fix by K4CZP3R
+
+ ▪ project vendor/cm/
+ ▪ c73feb2a vendor
+
+ ▼ 08/15/2017
+
+
+ ▪ project bootable/recovery-twrp/
+ ▪ c0c5c3a1 Merge "Fix typos / inconsistencies in German language" into android-7.1
+
+ ▪ project packages/apps/Jelly/
+ ▪ 1ea2382 Jelly: Improve URL bar behavior
+
+ ▪ project packages/apps/Settings/
+ ▪ 7d771ca324 Fix i9500 maintainer dont show (#842)
+ ▪ df1f26ec20 Fix i9500 maintainer dont show (#840)
+
+ ▼ 08/14/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/DeskClock/
+ ▪ 436ce6ae clock: Reset profile if profile is already selected
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+ ▪ 72deb1296d Fix land device position (#839)
+ ▪ f6cc7a7c19 Add Redmi 4X device maintainer (#838)
+
+ ▪ project packages/services/OmniJaws/
+
+ ▼ 08/13/2017
+
+
+ ▪ project bootable/recovery-twrp/
+ ▪ 5302ec42 Merge "SHA2: Enable in landscape and watch xml" into android-7.1
+
+ ▪ project frameworks/base/
+ ▪ 63df1f1fdea PowerManagerService: fix HW button illumination timeout
+ ▪ 87a1af4ddbb SystemUI: Fix battery meter view blacklist handling
+
+ ▪ project hardware/broadcom/wlan/
+ ▪ 5ef057d Merge tag 'android-7.1.2_r28' into cm-14.1
+
+ ▪ project packages/apps/Snap/
+ ▪ 70dbc05d0 Snap: add missing null check on isCamera2Supported
+
+ ▼ 08/12/2017
+
+
+ ▪ project hardware/qcom/bt-caf/
+ ▪ b60954a libbt-qcom: Allow reading BT address from property
+
+ ▪ project packages/services/Telephony/
+ ▪ 3933dacc VoicemailSettingsActivity: Fix some NPEs
+ ▪ f824b46d Telephony: Correct missing italian translation
+ ▪ 2c3c9b07 PhoneToggler: Update preferred network mode setting
+
+ ▼ 08/11/2017
+
+
+ ▪ project packages/apps/Settings/
+ ▪ 6a459f6d3d Edit Moto G4 Plus Maintainer name (added full name) (#836)
+ ▪ 37c5cff879 Add maintainer for Xiaomi RedMi 3s (#835)
 
  ▼ 08/10/2017
 
 
- ▪ project build/
- ▪ d8b0bd6a4 ru
-
- ▪ project external/roboto-fonts/
- ▪ 0fec410 Roboto-Light
-
  ▪ project frameworks/base/
- ▪ 7eac2bd863e mtp: stop ocassional crash in MTP Host.
+ ▪ 558ad5d39a7 FWB:Single tap tile add switch [1/2]
+ ▪ ced649479c5 Allow user to add/remove QS with one click
  ▪ 9059f7a6364 Merge pull request #206 from ashoksoni/dataswitch
  ▪ e5d459fd918 Drop-down data switch through Cellular tile.
  ▪ db1dea31f16 SystemUI: add telephony-ext so that imports can be resolved
- ▪ 198fc030557 DUI: Left in landscape navbar API [1/3]
-
- ▪ project frameworks/native/
- ▪ 8390aa2e2 opengl: dont use swap buffers with damage
- ▪ 255d8f427 gui: don't use native fence sync
- ▪ ceb6f8427 Fix deep sleep issue
-
- ▪ project frameworks/opt/telephony/
- ▪ 62622d84 fix 2g/3g/LTE switch
-
- ▪ project packages/apps/AudioFX/
-
- ▪ project packages/apps/Bluetooth/
-
- ▪ project packages/apps/CMBugReport/
-
- ▪ project packages/apps/Calendar/
-
- ▪ project packages/apps/Camera2/
- ▪ 86eb58732 Camera2: override capture support level
- ▪ 048162f0b Camera2: Fix photo snap delay on front cam.
-
- ▪ project packages/apps/CellBroadcastReceiver/
-
- ▪ project packages/apps/DUI/
- ▪ 84de443 Fling logo on pulse: add transparency instead of hiding it
- ▪ f8f8b22 Fling: if KB is showing, double tap right/left to move text cursor
- ▪ ac4d117 DUI: Left in landscape navbar API [3/3]
- ▪ ab65f5a Revert "Pulse: Navbar left in landscape support" [2/3]
- ▪ 009b591 Revert "DUI:Uncomment Navbar Left in Landscape [1/2]"
-
- ▪ project packages/apps/Gallery2/
 
  ▪ project packages/apps/Jelly/
  ▪ d76965a Jelly: Improve incognito mode privacy
@@ -59,156 +142,6 @@
  ▪ f67c692 Jelly: The app should not close when search is active and back-button is pressed.
 
  ▪ project packages/apps/Settings/
- ▪ 2f6cfa52f7 add ota
- ▪ 12c38403e4 Adjust brightness by sliding across the status bar
+ ▪ fabd9ef5ef Settings:Single tap tile add switch [2/2]
  ▪ 0afef7a60e Settings:remove Selinux Switch
- ▪ d2d91c94e0 Updated Hydrogen Maintainer (#834)
- ▪ b739eecca8 Add galaxy s4 i9500 maintainer (#833)
-
- ▪ project packages/apps/Snap/
-
- ▪ project packages/apps/Terminal/
- ▪ a1df925 Terminal
-
- ▪ project packages/apps/Trebuchet/
- ▪ 0ba649ce9 my apps
-
- ▪ project packages/apps/UnifiedEmail/
-
- ▪ project packages/providers/MediaProvider/
- ▪ 066899e fix_mtp
-
- ▪ project packages/services/OmniJaws/
- ▪ cc659d0 enable weather by default
-
- ▪ project system/core/
- ▪ 79fb6612d CPU Fix by K4CZP3R
-
- ▪ project vendor/cm/
- ▪ f2c1f266 vendor
-
- ▼ 08/09/2017
-
-
- ▪ project android/
- ▪ ed7d67a cm.xml: sync caf 8998 hals
- ▪ 59201a1 manifest: android-7.1.2_r24 -> android-7.1.2_r29
-
- ▪ project build/
- ▪ 401a4a14d Merge 7.1.2_r29 into nougat
-
- ▪ project external/skia/
- ▪ 08bdeaf8e Merge 7.1.2_r29 into nougat
-
- ▪ project frameworks/av/
- ▪ 3a63a174d Merge 7.1.2_r29 into nougat
-
- ▪ project frameworks/base/
- ▪ e56d6464a46 FWB: Sensor block per-package switch (1/2)
- ▪ a8e139f3170 SystemSensorManager: sensor block per-package
- ▪ 59666009fef base: Update flags for edge gesture service from AOSPA
- ▪ 5029476e9c0 Silence a memory leak warning from the static analyzer
- ▪ 88fd564b800 GC in heapDumpFinished to cleanup hprof fd
- ▪ 9b11fe26954 Add null check for Wi-Fi command
- ▪ 9b8df668cd7 Fix static analyzer complaints
- ▪ 3a939a667db Merge 7.1.2_r29 into nougat
-
- ▪ project frameworks/native/
- ▪ f298a32a5 Merge 7.1.2_r29 into nougat
-
- ▪ project hardware/qcom/audio-caf/msm8916/
- ▪ 7fcca3ecd Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio-caf/msm8937/
- ▪ 9dbd0629b Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio-caf/msm8952/
- ▪ 34f4914d6 Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio-caf/msm8960/
- ▪ e24866674 Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio-caf/msm8974/
- ▪ 0d8579c53 Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio-caf/msm8994/
- ▪ 9dcddd7c2 Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ 5b1254761 Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project hardware/qcom/audio-caf/msm8998/
- ▪ c519e1ad0 Fix security vulnerability: Equalizer setParameter memory overflow
-
- ▪ project packages/apps/Settings/
- ▪ 9f245e7e65 Settings:Sensor block per-package switch[2/2]
-
- ▪ project system/bt/
- ▪ 80cca318 Revert "Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1"
-
- ▼ 08/08/2017
-
-
- ▪ project frameworks/opt/net/wifi/
- ▪ 1f8fc743 Merge tag 'android-7.1.2_r29' into cm-14.1
-
- ▪ project hardware/qcom/audio/default/
- ▪ a4f1bc583 Merge tag 'android-7.1.2_r29' into cm-14.1
-
- ▪ project packages/apps/Jelly/
- ▪ f20c0a4 Jelly: Add Yandex search engine
-
- ▪ project packages/services/OmniJaws/
- ▪ 271b581 Update config.xml
- ▪ 3f47dbd Use our key
-
- ▼ 08/07/2017
-
-
- ▪ project frameworks/base/
- ▪ 509aaf96787 AppOps: Fix yet another deadlock
- ▪ 7dbfbeb0335 Frameworks Cleanups
- ▪ 10874b8224a pocket: introduce pocket bridge
- ▪ 42af8ad2131 policy: introduce pocket lock
- ▪ abd6b0e02ba pocket: introduce pocket judge
- ▪ 9c2bc7e8dc1 base: Introduce Accidental Touch
- ▪ 5a0945c43cc frameworks: PIE 3.0 (nougat)
- ▪ 4df79251675 Revert "Forward Port: PIE 3.0 (1/2)"
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/PackageInstaller/
-
- ▪ project packages/apps/ResurrectionOTA/
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 6b6f3b3 Stats: RR v5.8.4
-
- ▪ project packages/apps/Settings/
- ▪ 3701c92125 Dslv: Fix FC when adding duplicate shortcuts
- ▪ c1348a0d92 Settings:Add preference for pocket judge [2/2]
- ▪ e090493570 PieSettings: Add support for Pie Gravity
- ▪ 9749d2d4c4 ButtonsSettings: Add preference for Accidental Touch
- ▪ 5fd64bebc0 Update PIE settings to 3.0
-
- ▪ project vendor/cm/
- ▪ e74670c3 Update changelog to 5.8.4
- ▪ f8692056 Bump version to 5.8.4
- ▪ 8272685d vendor: Fix a user profile data denial
- ▪ be1cf971 vendor: Add selinux policy for pocket bridge
- ▪ 5ea6f1ce vendor:Add sysfs permissions for pocket bridge
- ▪ 27711887 pa: Add pocket judge selinux policy
-
- ▼ 08/06/2017
-
-
- ▪ project hardware/qcom/display-caf/apq8084/
- ▪ e2f4340ea cec: Fix breakage due to API change
-
- ▪ project hardware/qcom/media-caf/apq8084/
- ▪ 02e57500c videopp: fix include paths for lineage
 
