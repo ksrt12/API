@@ -18,7 +18,7 @@
             <GappsUrl
                 id="gapps"
                 title="Gapps"
-                description="ARM64 7.1 pico">http://opengapps.org/</GappsUrl>
+                description="ARM64 7.1 pico">http://opengapps.org/?arch=arm64&api=7.1&variant=pico</GappsUrl>
 	        </cherryplus>
     </test>
 </SlimOTA>
